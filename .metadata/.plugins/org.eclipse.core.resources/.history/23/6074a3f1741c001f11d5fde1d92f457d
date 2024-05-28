@@ -1,0 +1,6 @@
+package model;
+import com.fas
+public record DadosSerie(@JsonAlias()
+		titulo, Integer totalTemporadas, String avaliacao) {
+
+}
